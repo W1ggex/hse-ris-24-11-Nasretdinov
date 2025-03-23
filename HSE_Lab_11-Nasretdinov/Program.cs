@@ -293,7 +293,7 @@ namespace HSE_Lab_11_Nasretdinov
             }
             Console.WriteLine($"Found element {isFound}: {sum / 10}");
 
-            Console.WriteLine("\nDictionary<Guitar, ElectricGuitar>");
+            Console.WriteLine("\nDictionary<Guitar, ElectricGuitar> ContainsKey");
 
             // Проверка для первого ключа в Dictionary<Guitar, ElectricGuitar>
             sum = 0;
@@ -337,7 +337,7 @@ namespace HSE_Lab_11_Nasretdinov
                 sw.Stop();
                 sum += sw.ElapsedTicks;
             }
-            Console.WriteLine($"Found element {isFound}: {sum / 10}");
+            Console.WriteLine($"Found element {isFound}: {sum / 10}"); 
 
             Console.WriteLine("\nDictionary<Guitar, ElectricGuitar> ContainsValue");
             // Проверка для первого значения в Dictionary<Guitar, ElectricGuitar>
@@ -349,7 +349,7 @@ namespace HSE_Lab_11_Nasretdinov
                 sw.Stop();
                 sum += sw.ElapsedTicks;
             }
-            Console.WriteLine($"первый Found element {isFound}: {sum / 10}");
+            Console.WriteLine($"The first Found element {isFound}: {sum / 10}");
 
             // Проверка для среднего значения в Dictionary<Guitar, ElectricGuitar>
             sum = 0;
@@ -360,7 +360,7 @@ namespace HSE_Lab_11_Nasretdinov
                 sw.Stop();
                 sum += sw.ElapsedTicks;
             }
-            Console.WriteLine($"средний Found element {isFound}: {sum / 10}");
+            Console.WriteLine($"The middle Found element {isFound}: {sum / 10}");
 
             // Проверка для последнего значения в Dictionary<Guitar, ElectricGuitar>
             sum = 0;
@@ -394,7 +394,7 @@ namespace HSE_Lab_11_Nasretdinov
                 sw.Stop();
                 sum += sw.ElapsedTicks;
             }
-            Console.WriteLine($"первый Found element  {isFound}: {sum / 10}");
+            Console.WriteLine($"The first Found element  {isFound}: {sum / 10}");
 
             // Проверка для среднего строкового ключа в Dictionary<string, ElectricGuitar>
             sum = 0;
@@ -405,7 +405,7 @@ namespace HSE_Lab_11_Nasretdinov
                 sw.Stop();
                 sum += sw.ElapsedTicks;
             }
-            Console.WriteLine($"средний Found element {isFound}: {sum / 10}");
+            Console.WriteLine($"The middle Found element {isFound}: {sum / 10}");
 
             // Проверка для последнего строкового ключа в Dictionary<string, ElectricGuitar>
             sum = 0;
@@ -439,7 +439,7 @@ namespace HSE_Lab_11_Nasretdinov
                 sw.Stop();
                 sum += sw.ElapsedTicks;
             }
-            Console.WriteLine($"первый Found element {isFound}: {sum / 10}");
+            Console.WriteLine($"The first Found element {isFound}: {sum / 10}");
 
             // Проверка для среднего значения в Dictionary<string, ElectricGuitar>
             sum = 0;
@@ -450,7 +450,7 @@ namespace HSE_Lab_11_Nasretdinov
                 sw.Stop();
                 sum += sw.ElapsedTicks;
             }
-            Console.WriteLine($"средний Found element {isFound}: {sum / 10}");
+            Console.WriteLine($"The middle Found element {isFound}: {sum / 10}");
 
             // Проверка для последнего значения в Dictionary<string, ElectricGuitar>
             sum = 0;
